@@ -15,7 +15,7 @@
 ########################
 
 //Path to a program.
-CMAKE_ADDR2LINE:FILEPATH=CMAKE_ADDR2LINE-NOTFOUND
+CMAKE_ADDR2LINE:FILEPATH=/Users/elahd/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-addr2line
 
 //Path to a program.
 CMAKE_AR:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/ar
@@ -127,7 +127,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_NM:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/nm
 
 //Path to a program.
-CMAKE_OBJCOPY:FILEPATH=CMAKE_OBJCOPY-NOTFOUND
+CMAKE_OBJCOPY:FILEPATH=/Users/elahd/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-objcopy
 
 //Path to a program.
 CMAKE_OBJDUMP:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/objdump
@@ -156,7 +156,7 @@ CMAKE_PROJECT_NAME:STATIC=roombii_roomba
 CMAKE_RANLIB:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/ranlib
 
 //Path to a program.
-CMAKE_READELF:FILEPATH=CMAKE_READELF-NOTFOUND
+CMAKE_READELF:FILEPATH=/Users/elahd/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-readelf
 
 //Flags used by the linker during the creation of shared libraries
 // during all build types.

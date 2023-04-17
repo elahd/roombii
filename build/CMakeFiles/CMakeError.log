@@ -29,3 +29,189 @@ ninja: build stopped: subcommand failed.
 
 
 
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /Users/Elahd/Development/roombii/roombii/build/CMakeFiles/CMakeScratch/TryCompile-Z1eOYt
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_e8bbf && [1/2] Building CXX object CMakeFiles/cmTC_e8bbf.dir/CMakeCXXCompilerABI.cpp.o
+FAILED: CMakeFiles/cmTC_e8bbf.dir/CMakeCXXCompilerABI.cpp.o 
+/Users/elahd/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   -v -Wl,-v -o CMakeFiles/cmTC_e8bbf.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+xtensa-esp32-elf-c++: error: arm64: No such file or directory
+Using built-in specs.
+COLLECT_GCC=/Users/elahd/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-c++
+xtensa-esp32-elf-c++: error: unrecognized command line option '-arch'
+Target: xtensa-esp32-elf
+Configured with: /builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_apple-darwin12 --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-2020r3' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes
+Thread model: posix
+gcc version 8.4.0 (crosstool-NG esp-2020r3) 
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C++ compiler works failed with the following output:
+Change Dir: /Users/Elahd/Development/roombii/roombii/build/CMakeFiles/CMakeScratch/TryCompile-bFvmij
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_ca204 && [1/2] Building CXX object CMakeFiles/cmTC_ca204.dir/testCXXCompiler.cxx.o
+FAILED: CMakeFiles/cmTC_ca204.dir/testCXXCompiler.cxx.o 
+/Users/elahd/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/cmTC_ca204.dir/testCXXCompiler.cxx.o -c /Users/Elahd/Development/roombii/roombii/build/CMakeFiles/CMakeScratch/TryCompile-bFvmij/testCXXCompiler.cxx
+xtensa-esp32-elf-c++: error: arm64: No such file or directory
+xtensa-esp32-elf-c++: error: unrecognized command line option '-arch'
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /Users/Elahd/Development/roombii/roombii/build/CMakeFiles/CMakeScratch/TryCompile-JchAQm
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_4dbbf && [1/2] Building CXX object CMakeFiles/cmTC_4dbbf.dir/CMakeCXXCompilerABI.cpp.o
+FAILED: CMakeFiles/cmTC_4dbbf.dir/CMakeCXXCompilerABI.cpp.o 
+/Users/elahd/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   -v -Wl,-v -o CMakeFiles/cmTC_4dbbf.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+xtensa-esp32-elf-c++: error: arm64: No such file or directory
+Using built-in specs.
+COLLECT_GCC=/Users/elahd/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-c++
+xtensa-esp32-elf-c++: error: unrecognized command line option '-arch'
+Target: xtensa-esp32-elf
+Configured with: /builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_apple-darwin12 --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-2020r3' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes
+Thread model: posix
+gcc version 8.4.0 (crosstool-NG esp-2020r3) 
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C++ compiler works failed with the following output:
+Change Dir: /Users/Elahd/Development/roombii/roombii/build/CMakeFiles/CMakeScratch/TryCompile-1SARBY
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_0b627 && [1/2] Building CXX object CMakeFiles/cmTC_0b627.dir/testCXXCompiler.cxx.o
+FAILED: CMakeFiles/cmTC_0b627.dir/testCXXCompiler.cxx.o 
+/Users/elahd/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/cmTC_0b627.dir/testCXXCompiler.cxx.o -c /Users/Elahd/Development/roombii/roombii/build/CMakeFiles/CMakeScratch/TryCompile-1SARBY/testCXXCompiler.cxx
+xtensa-esp32-elf-c++: error: arm64: No such file or directory
+xtensa-esp32-elf-c++: error: unrecognized command line option '-arch'
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /Users/Elahd/Development/roombii/roombii/build/CMakeFiles/CMakeScratch/TryCompile-fZmj7i
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_7a0af && [1/2] Building CXX object CMakeFiles/cmTC_7a0af.dir/CMakeCXXCompilerABI.cpp.o
+FAILED: CMakeFiles/cmTC_7a0af.dir/CMakeCXXCompilerABI.cpp.o 
+/Users/elahd/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   -v -Wl,-v -o CMakeFiles/cmTC_7a0af.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+xtensa-esp32-elf-c++: error: arm64: No such file or directory
+Using built-in specs.
+COLLECT_GCC=/Users/elahd/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-c++
+xtensa-esp32-elf-c++: error: unrecognized command line option '-arch'
+Target: xtensa-esp32-elf
+Configured with: /builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_apple-darwin12 --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-2020r3' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes
+Thread model: posix
+gcc version 8.4.0 (crosstool-NG esp-2020r3) 
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C++ compiler works failed with the following output:
+Change Dir: /Users/Elahd/Development/roombii/roombii/build/CMakeFiles/CMakeScratch/TryCompile-DRPudY
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_b6046 && [1/2] Building CXX object CMakeFiles/cmTC_b6046.dir/testCXXCompiler.cxx.o
+FAILED: CMakeFiles/cmTC_b6046.dir/testCXXCompiler.cxx.o 
+/Users/elahd/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/cmTC_b6046.dir/testCXXCompiler.cxx.o -c /Users/Elahd/Development/roombii/roombii/build/CMakeFiles/CMakeScratch/TryCompile-DRPudY/testCXXCompiler.cxx
+xtensa-esp32-elf-c++: error: arm64: No such file or directory
+xtensa-esp32-elf-c++: error: unrecognized command line option '-arch'
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /Users/Elahd/Development/roombii/roombii/build/CMakeFiles/CMakeScratch/TryCompile-BXpjV9
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_b12b6 && [1/2] Building CXX object CMakeFiles/cmTC_b12b6.dir/CMakeCXXCompilerABI.cpp.o
+FAILED: CMakeFiles/cmTC_b12b6.dir/CMakeCXXCompilerABI.cpp.o 
+/Users/elahd/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   -v -Wl,-v -o CMakeFiles/cmTC_b12b6.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+xtensa-esp32-elf-c++: error: arm64: No such file or directory
+Using built-in specs.
+COLLECT_GCC=/Users/elahd/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-c++
+xtensa-esp32-elf-c++: error: unrecognized command line option '-arch'
+Target: xtensa-esp32-elf
+Configured with: /builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_apple-darwin12 --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-2020r3' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes
+Thread model: posix
+gcc version 8.4.0 (crosstool-NG esp-2020r3) 
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C++ compiler works failed with the following output:
+Change Dir: /Users/Elahd/Development/roombii/roombii/build/CMakeFiles/CMakeScratch/TryCompile-DeZZB7
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_f3d37 && [1/2] Building CXX object CMakeFiles/cmTC_f3d37.dir/testCXXCompiler.cxx.o
+FAILED: CMakeFiles/cmTC_f3d37.dir/testCXXCompiler.cxx.o 
+/Users/elahd/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/cmTC_f3d37.dir/testCXXCompiler.cxx.o -c /Users/Elahd/Development/roombii/roombii/build/CMakeFiles/CMakeScratch/TryCompile-DeZZB7/testCXXCompiler.cxx
+xtensa-esp32-elf-c++: error: arm64: No such file or directory
+xtensa-esp32-elf-c++: error: unrecognized command line option '-arch'
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /Users/Elahd/Development/roombii/roombii/build/CMakeFiles/CMakeScratch/TryCompile-LcPyT5
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_7e210 && [1/2] Building CXX object CMakeFiles/cmTC_7e210.dir/CMakeCXXCompilerABI.cpp.o
+FAILED: CMakeFiles/cmTC_7e210.dir/CMakeCXXCompilerABI.cpp.o 
+/Users/elahd/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   -v -Wl,-v -o CMakeFiles/cmTC_7e210.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+xtensa-esp32-elf-c++: error: arm64: No such file or directory
+Using built-in specs.
+COLLECT_GCC=/Users/elahd/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-c++
+xtensa-esp32-elf-c++: error: unrecognized command line option '-arch'
+Target: xtensa-esp32-elf
+Configured with: /builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_apple-darwin12 --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-2020r3' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes
+Thread model: posix
+gcc version 8.4.0 (crosstool-NG esp-2020r3) 
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C++ compiler works failed with the following output:
+Change Dir: /Users/Elahd/Development/roombii/roombii/build/CMakeFiles/CMakeScratch/TryCompile-W5nmwo
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_b9457 && [1/2] Building CXX object CMakeFiles/cmTC_b9457.dir/testCXXCompiler.cxx.o
+FAILED: CMakeFiles/cmTC_b9457.dir/testCXXCompiler.cxx.o 
+/Users/elahd/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/cmTC_b9457.dir/testCXXCompiler.cxx.o -c /Users/Elahd/Development/roombii/roombii/build/CMakeFiles/CMakeScratch/TryCompile-W5nmwo/testCXXCompiler.cxx
+xtensa-esp32-elf-c++: error: arm64: No such file or directory
+xtensa-esp32-elf-c++: error: unrecognized command line option '-arch'
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /Users/Elahd/Development/roombii/roombii/build/CMakeFiles/CMakeScratch/TryCompile-BTTXjE
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_fac18 && [1/2] Building CXX object CMakeFiles/cmTC_fac18.dir/CMakeCXXCompilerABI.cpp.o
+FAILED: CMakeFiles/cmTC_fac18.dir/CMakeCXXCompilerABI.cpp.o 
+/Users/elahd/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   -v -Wl,-v -o CMakeFiles/cmTC_fac18.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+xtensa-esp32-elf-c++: error: arm64: No such file or directory
+Using built-in specs.
+COLLECT_GCC=/Users/elahd/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-c++
+xtensa-esp32-elf-c++: error: unrecognized command line option '-arch'
+Target: xtensa-esp32-elf
+Configured with: /builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_apple-darwin12 --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-2020r3' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin12/xtensa-esp32-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes
+Thread model: posix
+gcc version 8.4.0 (crosstool-NG esp-2020r3) 
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C++ compiler works failed with the following output:
+Change Dir: /Users/Elahd/Development/roombii/roombii/build/CMakeFiles/CMakeScratch/TryCompile-MmGRTm
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_e3c7b && [1/2] Building CXX object CMakeFiles/cmTC_e3c7b.dir/testCXXCompiler.cxx.o
+FAILED: CMakeFiles/cmTC_e3c7b.dir/testCXXCompiler.cxx.o 
+/Users/elahd/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/cmTC_e3c7b.dir/testCXXCompiler.cxx.o -c /Users/Elahd/Development/roombii/roombii/build/CMakeFiles/CMakeScratch/TryCompile-MmGRTm/testCXXCompiler.cxx
+xtensa-esp32-elf-c++: error: arm64: No such file or directory
+xtensa-esp32-elf-c++: error: unrecognized command line option '-arch'
+ninja: build stopped: subcommand failed.
+
+
+

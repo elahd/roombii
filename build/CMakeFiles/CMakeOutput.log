@@ -134,3 +134,81 @@ Parsed C implicit link information from above output:
   implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks]
 
 
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Users/elahd/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/Users/Elahd/Development/roombii/roombii/build/CMakeFiles/3.25.3/CompilerIdCXX/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Users/elahd/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/Users/Elahd/Development/roombii/roombii/build/CMakeFiles/3.25.3/CompilerIdCXX/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Users/elahd/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/Users/Elahd/Development/roombii/roombii/build/CMakeFiles/3.25.3/CompilerIdCXX/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Users/elahd/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/Users/Elahd/Development/roombii/roombii/build/CMakeFiles/3.25.3/CompilerIdCXX/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Users/elahd/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/Users/Elahd/Development/roombii/roombii/build/CMakeFiles/3.25.3/CompilerIdCXX/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Users/elahd/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/Users/Elahd/Development/roombii/roombii/build/CMakeFiles/3.25.3/CompilerIdCXX/a.out"
+
