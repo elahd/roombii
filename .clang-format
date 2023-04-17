@@ -1,0 +1,18 @@
+BasedOnStyle: LLVM
+AlignConsecutiveMacros: true
+AlignConsecutiveDeclarations: true
+AlignConsecutiveAssignments: true
+AlignTrailingComments: true
+FixNamespaceComments: true
+IncludeBlocks: Regroup
+UseTab: ForContinuationAndIndentation
+IndentWidth: 4
+TabWidth: 4
+ColumnLimit: 0
+AllowAllArgumentsOnNextLine: true
+AllowShortBlocksOnASingleLine: Always
+# IndentAccessModifiers: true
+IndentPPDirectives: AfterHash
+IndentCaseLabels: true
+IndentCaseBlocks: true
+IndentExternBlock: AfterExternBlock
