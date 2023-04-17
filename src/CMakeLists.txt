@@ -1,8 +1,3 @@
-# idf_component_register(
-#     SRCS "main.c"
-#     REQUIRES "bluepad32_arduino" "framework-arduinoespressif32"
-#     )
-
 set(SRCS "main.c")
 
 set(REQUIRES "bluepad32")
